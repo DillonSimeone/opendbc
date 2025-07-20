@@ -390,6 +390,7 @@ FW_VERSIONS = {
       b'\x00\x00c\xb7\x1f@\x10\x16',
       b'\x00\x00c\xd1\x1f@\x10\x17',
       b'\x00\x00c\xec\x1f@ \x04',
+      b'\xf0\xe0\x0e',
     ],
     (Ecu.engine, 0x7e0, None): [
       b'\xa0"@\x80\x07',
@@ -405,6 +406,7 @@ FW_VERSIONS = {
       b'\xb4"@p\x07',
       b'\xb4"@r\x07',
       b'\xb4+@p\x07',
+      b'\xb4"@v\x07',
     ],
     (Ecu.transmission, 0x7e1, None): [
       b'\xbd\xf2@`\x00',
@@ -416,6 +418,7 @@ FW_VERSIONS = {
       b'\xbf\xe2@\x80\x00',
       b'\xbf\xf2@\x80\x00',
       b'\xbf\xfb\xe0b\x00',
+      b'\xbd\xf2@\x80\x00',
     ],
   },
   CAR.SUBARU_OUTBACK_PREGLOBAL_2018: {
